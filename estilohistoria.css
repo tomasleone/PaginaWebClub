@@ -1,0 +1,153 @@
+
+.info{
+    background-color: #0056b3;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header{
+    max-width: 1500px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000080;
+    color: #fff;
+      
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    
+}
+nav ul li{
+    margin: 0 20px;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;; 
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+
+.historia{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.historia img{
+    float: right; 
+    padding-right: 10px;
+    width: 650px; 
+    height: 340px;
+    
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    font-size: 15px;
+    line-height: 30px;
+    width: 50%;
+    margin: auto;
+    
+}
+
+.izquierda{
+    background: #fff;
+    height: 100vh;
+    width: 50%;
+    text-align: center;
+}
+.derecha1{
+    background: url(IMG/IMGHISTORIA/BOCA1905.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 100vh;
+}
+.derecha2{
+    background: url(IMG/IMGHISTORIA/BOCA1940.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 100vh;
+}
+
+.derecha3{
+    background: url(IMG/IMGHISTORIA/BOCA\ 1981.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 100vh;
+}
+.derecha4{
+    background: url(IMG/IMGHISTORIA/BOCA1996.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 100vh;
+}
+.derecha5{
+    background: url(IMG/IMGHISTORIA/BOCA\ 1998.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 100vh;
+}
+
+.derecha6{
+    background: url(IMG/IMGHISTORIA/BOCA\ 2003.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 100vh;
+}
+
+.derecha7{
+    background: url(IMG/IMGHISTORIA/BOCA\ 2007.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 100vh;
+}
+.derecha8{
+    background: url(IMG/IMGHISTORIA/BOCA\ 2011.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 100vh;
+}
+
+
+
+
+#pantalla-dividida{
+    display: flex;
+    width: 100%;
+    margin: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 2);
+    cursor: default;
+    transition: all 400ms ease;
+}
+
+
+
+h1{
+    text-align: center;
+}
+
+
