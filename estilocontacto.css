@@ -103,6 +103,7 @@ body{
     border: none;
     font-size: 18px;
     cursor: pointer;
+    background: #003391;
 }
 
 .contact__submit-button:hover{

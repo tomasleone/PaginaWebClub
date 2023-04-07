@@ -69,7 +69,7 @@ p{
 }
 
 .izquierda{
-    background: #fff;
+    background: #f8f9fa;;
     height: 100vh;
     width: 50%;
     text-align: center;
@@ -153,6 +153,7 @@ p{
 
 h1{
     text-align: center;
+    
 }
 
 .info img{
