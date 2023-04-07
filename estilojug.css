@@ -15,16 +15,20 @@ body{
     color: #fff;
     padding: 20px;
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
 }
 
 header{
     max-width: 1500px;
+    height: 90px;
     margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #000080;
     color: #fff;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
       
 }
 nav ul{
@@ -103,4 +107,15 @@ nav ul li a:hover{
 .card .contenido a:hover{
     background: #2fb4cc;
     color: #fff;
+}
+
+.info img{
+    width: 70px;
+    height: 35px;
+    float: left;
+    
+}
+.info p{
+    font-size: 24px;
+    font-family: sans-serif, 'Montserrat';
 }
